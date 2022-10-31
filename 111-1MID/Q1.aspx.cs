@@ -34,5 +34,13 @@ namespace _111_1MID {
             if (tb_Phone.Text != "")
                 lb_Msg.Text += "連絡電話為" + tb_Phone.Text + "<br />";
         }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            tb_Account.Text = "";
+            tb_Phone.Text = "";
+            pl_Msg.Visible = false;
+            btn_Submit.Visible = false;
+        }
     }
 }

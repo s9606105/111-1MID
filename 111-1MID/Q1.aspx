@@ -24,7 +24,7 @@
             <br />
             <asp:Panel ID="pl_Msg" runat="server" Width="500px" BorderWidth="1px" Visible="false">
                 <asp:Label ID="lb_Msg" runat="server"></asp:Label><br />
-                <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="Q1.aspx">重新填寫</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="Q1.aspx" OnClick="LinkButton1_Click">重新填寫</asp:LinkButton>
             </asp:Panel>
         </div>
     </form>
